@@ -1,7 +1,9 @@
 # Blog-Django
-### A sample blog, with CRUD(Create, Read, Update, Delete).
+#### A sample blog, with CRUD(Create, Read, Update, Delete).
+
 
 > Status: Developing ⚠️
+
 
 ## Technologies Used:
 <table>
