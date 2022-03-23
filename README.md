@@ -30,9 +30,7 @@
 [Poetry](https://python-poetry.org/docs/master#installing-with-the-official-installer)
 2) run shell for intall depedencies to project and update depedencies:
 ``` 
-# Install depedencies
 poetry install
-
 poetry update
 
 ```
