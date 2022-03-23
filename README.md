@@ -1,5 +1,5 @@
-# Blog-Django <h1>
-## A sample blog, with CRUD(Create, Read, Update, Delete).
+# Blog-Django
+### A sample blog, with CRUD(Create, Read, Update, Delete).
 
 > Status: Developing ⚠️
 
