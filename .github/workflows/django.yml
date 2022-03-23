@@ -34,3 +34,6 @@ jobs:
 
       - name: Install dependencies
         run: poetry install 
+
+      - name: Copy config .env
+        run: cp contrib/env-sample .env  
