@@ -34,6 +34,10 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def save(self, *args, **kwargs):
+        self.content = self.content.upper()
+        super().save(*args, **kwargs)    
+
     def get_absolute_url(self):
         from django.urls import reverse
 
