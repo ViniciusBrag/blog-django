@@ -5,7 +5,7 @@ from blogdjango.blog.models import Post
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'status_post', 'created_on')
     list_filter = ("status_post",)
-    search_fields = ['title', 'content', 'author']
+    search_fields = ['title', 'content',]
     prepopulated_fields = {'slug': ('title',)}
 
 

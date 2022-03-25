@@ -7,6 +7,18 @@ STATUS = (
 )
 
 class Post(models.Model):
+    """
+    Class Post for insert information about post in database.
+    Args:
+        models (_type_): _description_
+        models a modeling de information for connect a database
+
+    Returns:
+        _type_: _description_
+        Ordering: order based a last post
+        
+
+    """
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete = models.CASCADE)
