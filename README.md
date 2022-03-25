@@ -13,6 +13,7 @@
     <td>Docker-Compose</td>
     <td>Postgre</td>
     <td>Heroku</td>
+    <td>flake8</td>
 
   </tr>
   <tr>
@@ -21,6 +22,8 @@
     <td> 3.3 </td>
     <td>11</td>
     <td>7.59</td>
+    <td>4.0.1</td>
+
   </tr>
 </table>
 
