@@ -4,7 +4,7 @@ import pytest
 
 @pytest.fixture
 def resp(client):
-    resp = client.get(reverse('blog:home'))
+    resp = client.get(reverse('blog:base'))
     return resp
 
 def test_status_code(resp):
