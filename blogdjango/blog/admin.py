@@ -8,9 +8,7 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ['title', 'content',]
     prepopulated_fields = {'slug': ('title',)}
 
-@admin.register(AboutBlog)
-class AboutBlog(admin.ModelAdmin):
-    list_display = ('content',)
+
 
 
 
