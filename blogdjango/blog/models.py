@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.urls import reverse
 
 STATUS = (
     (0, "Draft"),
@@ -39,10 +40,7 @@ class Post(models.Model):
         super().save(*args, **kwargs)    
 
     def get_absolute_url(self):
-        from django.urls import reverse
-
-        return reverse("post_detail", kwargs={"slug": str(self.slug)})
-
+        reverse('home')
 class AboutBlog(models.Model):
     content = models.TextField()
 
