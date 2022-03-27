@@ -42,3 +42,12 @@ class Post(models.Model):
         from django.urls import reverse
 
         return reverse("post_detail", kwargs={"slug": str(self.slug)})
+
+class AboutBlog(models.Model):
+    content = models.TextField()
+
+
+    def __str__(self):
+        return self.content
+
+        
