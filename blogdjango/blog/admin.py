@@ -1,5 +1,5 @@
 from django.contrib import admin
-from blogdjango.blog.models import Post, AboutBlog
+from blogdjango.blog.models import Post
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
@@ -8,9 +8,7 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ['title', 'content',]
     prepopulated_fields = {'slug': ('title',)}
 
-@admin.register(AboutBlog)
-class AboutBlog(admin.ModelAdmin):
-    list_display = ('content',)
+
 
 
 

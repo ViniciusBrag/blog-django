@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from blogdjango.blog.models import Post, AboutBlog
+from blogdjango.blog.models import Post, AboutBlog 
 from django.views.generic import DetailView, ListView, CreateView
 
 class PostList(ListView):
@@ -15,3 +15,4 @@ class AboutBlog(ListView):
     queryset = AboutBlog.objects.all()
     model = AboutBlog
     template_name = 'about_blog.html'
+     
