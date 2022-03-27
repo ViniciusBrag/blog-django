@@ -3,10 +3,12 @@
 {% endblock title %}
 
 {% block content %}
-
-<form method='POST'>
-    {% csrf_token %}
-    {{form.as_p}}   
-    <button type="button" class="btn btn-primary btn-sm">Enviar Post</button>
-
+<div class="form-group">
+    <form method='POST'>
+        {% csrf_token %}
+        {{form.as_p}}   
+        <button type="button" class="btn btn-primary btn-sm">Enviar Post</button>
+    </form>
+</div>   
+     
 {% endblock content %}
