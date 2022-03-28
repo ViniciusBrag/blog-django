@@ -1,4 +1,6 @@
 # Blog-Django
+
+
 #### A sample blog, with CRUD(Create, Read, Update, Delete).
 
 
@@ -37,3 +39,8 @@ poetry install
 poetry update
 
 ```
+3)For valid quality of coding:
+```
+flake8 .
+```
+

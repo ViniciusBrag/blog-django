@@ -40,3 +40,11 @@ jobs:
 
       - name: Lint with flake8
         run: poetry run flake8 .  
+
+      - name: Test with pytest
+        run:  poetry run pytest --cov='.' -v 
+
+      - name: Send report to codecov.io
+        env:
+          CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
+        run: poetry run codecov      
