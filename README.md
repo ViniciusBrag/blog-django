@@ -1,5 +1,7 @@
 # Blog-Django
 
+[![Updates](https://pyup.io/repos/github/ViniciusBrag/blog-django/shield.svg)](https://pyup.io/repos/github/ViniciusBrag/blog-django/)
+[![Python 3](https://pyup.io/repos/github/ViniciusBrag/blog-django/python-3-shield.svg)](https://pyup.io/repos/github/ViniciusBrag/blog-django/)
 
 #### A sample blog, with CRUD(Create, Read, Update, Delete).
 
