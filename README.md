@@ -2,7 +2,7 @@
 
 [![Updates](https://pyup.io/repos/github/ViniciusBrag/blog-django/shield.svg)](https://pyup.io/repos/github/ViniciusBrag/blog-django/)
 [![Python 3](https://pyup.io/repos/github/ViniciusBrag/blog-django/python-3-shield.svg)](https://pyup.io/repos/github/ViniciusBrag/blog-django/)
-
+[![codecov](https://codecov.io/gh/ViniciusBrag/blog-django/branch/main/graph/badge.svg?token=LK7fdk5Uwp)](https://codecov.io/gh/ViniciusBrag/blog-django)
 #### A sample blog, with CRUD(Create, Read, Update, Delete).
 
 
