@@ -32,6 +32,7 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
+LOGIN_REDIRECT_URL = '/admin/'
 
 # Application definition
 
