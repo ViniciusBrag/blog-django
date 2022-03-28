@@ -47,3 +47,8 @@ poetry update
 flake8 .
 ```
 
+4) run project:
+```
+python manage.py runserver
+```
+
