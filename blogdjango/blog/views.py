@@ -16,8 +16,4 @@ class AboutBlog(ListView):
     queryset = AboutBlog.objects.all()
     model = AboutBlog
     template_name = 'about_blog.html'
-     
-class AddPostView(CreateView):
-    model = Post
-    form_class = PostForm
-    template_name = 'add_post.html'      
+        
