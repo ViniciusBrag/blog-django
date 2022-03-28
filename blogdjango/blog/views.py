@@ -1,7 +1,6 @@
 from django.shortcuts import render
-from blogdjango.blog.forms import PostForm
 from blogdjango.blog.models import Post, AboutBlog 
-from django.views.generic import DetailView, ListView, CreateView
+from django.views.generic import DetailView, ListView
 
 class PostList(ListView):
     queryset = Post.objects.filter(status_post=1).order_by('-created_on')
