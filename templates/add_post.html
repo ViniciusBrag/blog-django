@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h4>Adcionar Postagem</h4>
+</br>
+
+<form method="POST">
+  <div class="form-control">   
+    {% csrf_token %}
+    {{form.as_p}}
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+
+{% endblock content %}
+
+
+
+{% include footer %}
