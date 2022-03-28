@@ -41,7 +41,7 @@ poetry install
 poetry update
 
 ```
-3)For valid quality of coding:
+3) For valid quality of coding:
 ```
 flake8 .
 ```
